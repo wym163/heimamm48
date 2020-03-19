@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div>我是app</div>
-    <router-link ></router-link>
+  <div class="app">
+    <!-- 添加一个视图容器 -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -12,5 +12,5 @@ export default {
 </script>
 
 <style>
-
+  
 </style>
